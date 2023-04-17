@@ -1,0 +1,22 @@
+.hrmt {
+    display: flex;
+    margin-left: 600px;
+
+    font-size: 50px;
+    color: #6af817;
+    text-shadow:
+        0 0 15px #41b200,
+        0 0 0px #338b00,
+        0 0 10px #338b00;
+    align-items: center;
+}
+
+.day {
+    font-size: 30px;
+    /* margin-top: 200px; */
+    color: #6af817;
+    text-shadow:
+        0 0 15px #41b200,
+        0 0 0px #338b00,
+        0 0 10px #338b00;
+}
