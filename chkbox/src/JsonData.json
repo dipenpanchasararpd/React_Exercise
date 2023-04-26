@@ -1,0 +1,302 @@
+[
+    {
+        "key": "Custom Links",
+        "checkbox": [
+            {
+                "checkboxKey": "read",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "create",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "update",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "delete",
+                "isChecked": false
+            }
+        ],
+        "children": [
+            {
+                "key": "Name",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Link",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Description",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Web Pages",
+        "checkbox": [
+            {
+                "checkboxKey": "read",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "create",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "update",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "delete",
+                "isChecked": false
+            }
+        ],
+        "children": [
+            {
+                "key": "Title",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Menu Title",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Description",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Content",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Headers",
+        "checkbox": [
+            {
+                "checkboxKey": "read",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "create",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "update",
+                "isChecked": false
+            },
+            {
+                "checkboxKey": "delete",
+                "isChecked": false
+            }
+        ],
+        "children": [
+            {
+                "key": "Title",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Menu Title",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Description",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            },
+            {
+                "key": "Content",
+                "checkbox": [
+                    {
+                        "checkboxKey": "read",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "create",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "update",
+                        "isChecked": false
+                    },
+                    {
+                        "checkboxKey": "delete",
+                        "isChecked": false
+                    }
+                ]
+            }
+        ]
+    }
+]

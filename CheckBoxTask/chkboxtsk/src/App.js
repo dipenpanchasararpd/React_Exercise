@@ -8,8 +8,7 @@ const App = () => {
   const [check, setCheck] = useState();
 
   const toggleExpand = (key) => {
-    
-    setExpanded(prevExpanded => ({ ...prevExpanded, [key]: !prevExpanded[key] }));
+       setExpanded(prevExpanded => ({ ...prevExpanded, [key]: !prevExpanded[key] }));
   };
 
   const checkFnc = (pk, ky, childkey) => {
