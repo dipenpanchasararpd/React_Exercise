@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> d30967a8e0e9b6ee5a1109e06843984447e2a9f5
 import React, { useState } from 'react';
 import { UserProvider } from './UserContext';
 import App from '../App';

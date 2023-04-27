@@ -1,84 +1,84 @@
 [
     {
         "key": "Custom Links",
-        "checkbox": [
+        "checkBox": [
             {
-                "checkboxKey": "read",
+                "checkBoxKey": "read",
                 "isChecked": false
             },
             {
-                "checkboxKey": "create",
+                "checkBoxKey": "create",
                 "isChecked": false
             },
             {
-                "checkboxKey": "update",
+                "checkBoxKey": "update",
                 "isChecked": false
             },
             {
-                "checkboxKey": "delete",
+                "checkBoxKey": "delete",
                 "isChecked": false
             }
         ],
         "children": [
             {
                 "key": "Name",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Link",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Description",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
@@ -87,105 +87,105 @@
     },
     {
         "key": "Web Pages",
-        "checkbox": [
+        "checkBox": [
             {
-                "checkboxKey": "read",
+                "checkBoxKey": "read",
                 "isChecked": false
             },
             {
-                "checkboxKey": "create",
+                "checkBoxKey": "create",
                 "isChecked": false
             },
             {
-                "checkboxKey": "update",
+                "checkBoxKey": "update",
                 "isChecked": false
             },
             {
-                "checkboxKey": "delete",
+                "checkBoxKey": "delete",
                 "isChecked": false
             }
         ],
         "children": [
             {
                 "key": "Title",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Menu Title",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Description",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Content",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
@@ -194,105 +194,105 @@
     },
     {
         "key": "Headers",
-        "checkbox": [
+        "checkBox": [
             {
-                "checkboxKey": "read",
+                "checkBoxKey": "read",
                 "isChecked": false
             },
             {
-                "checkboxKey": "create",
+                "checkBoxKey": "create",
                 "isChecked": false
             },
             {
-                "checkboxKey": "update",
+                "checkBoxKey": "update",
                 "isChecked": false
             },
             {
-                "checkboxKey": "delete",
+                "checkBoxKey": "delete",
                 "isChecked": false
             }
         ],
         "children": [
             {
                 "key": "Title",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Menu Title",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Description",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
             },
             {
                 "key": "Content",
-                "checkbox": [
+                "checkBox": [
                     {
-                        "checkboxKey": "read",
+                        "checkBoxKey": "read",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "create",
+                        "checkBoxKey": "create",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "update",
+                        "checkBoxKey": "update",
                         "isChecked": false
                     },
                     {
-                        "checkboxKey": "delete",
+                        "checkBoxKey": "delete",
                         "isChecked": false
                     }
                 ]
