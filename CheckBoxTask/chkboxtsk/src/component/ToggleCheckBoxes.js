@@ -20,10 +20,8 @@ function ToggleCheckBoxes() {
                             })
                         }
                     }
-                }
-                )
+                })
             }
-
             parentChk.children.forEach(childChk => {
                 childChk.checkBox.forEach(chkBoxs => {
 
@@ -43,23 +41,13 @@ function ToggleCheckBoxes() {
                                         })
                                     }
                                 }
-                                //console.log(parentReadKey.isChecked)
-                                // if (true) {
-                                //     childChk.checkBox.forEach(readKey => {
-                                //         readKey.isChecked = false;
-                                //         parentReadKey.isChecked = false;
-                                //     })
-                                // }
                             })
                         }
                         else {
-
                             parentChk.checkBox.forEach(parentReadKey => {
                                 if (parentReadKey.checkBoxKey === "read" && parentReadKey.isChecked == false) {
-
                                     childChk.checkBox.forEach(childReadKey => {
                                         childReadKey.isChecked = false;
-
                                         //console.log(childReadKey)
                                     })
                                 }
@@ -69,11 +57,9 @@ function ToggleCheckBoxes() {
 
                     // Check For Child CheckBoxs
                     if (parentChk.key === parentKey && childChk.key === childKey && chkBoxs.checkBoxKey === childCheckBoxKey) {
-
                         chkBoxs.isChecked = !chkBoxs.isChecked;
                         if (chkBoxs.isChecked == true) {
                             childChk.checkBox.forEach(readKey => {
-
                                 if (readKey.checkBoxKey === "read") {
                                     readKey.isChecked = true;
                                 }
@@ -86,9 +72,6 @@ function ToggleCheckBoxes() {
                         }
                         if (chkBoxs.isChecked == false) {
                             updateselectall(false);
-                            // if(chkBoxs.checkBoxKey=="read"){
-
-                            // }
                         }
                         else {
                             let count = 0;
@@ -97,11 +80,11 @@ function ToggleCheckBoxes() {
                                 CheckAllChildren.checkBox.forEach(CheckAllchild => {
                                     if (CheckAllchild.checkBoxKey == childCheckBoxKey && CheckAllchild.isChecked == true) {
                                         count++;
-                                        console.log(count)
+                                        // console.log(count)
                                     }
                                     if (CheckAllchild.checkBoxKey == "read" && CheckAllchild.isChecked == true) {
                                         readcount++;
-                                        console.log(readcount)
+                                        // console.log(readcount)
                                     }
 
                                 })
@@ -140,7 +123,7 @@ function ToggleCheckBoxes() {
                         if (parentcheckboxs.checkBoxKey == "read" && parentKey) {
                             parentcheckboxs.isChecked = parentKey;
                         }
-                        
+
                     })
                 }
             }
