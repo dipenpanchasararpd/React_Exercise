@@ -1,96 +1,88 @@
-import Categories from './Categories';
-import './Style.css';
-import React, { useState, useEffect, useRef } from 'react'
-// function addCategory() { 
+import Categories from "./Categories";
+import "./Style.css";
+import React, { useState } from "react";
 
-//     // useEffect(() => {
-//         //     localStorage.setItem('items', JSON.stringify(items));
-//         // }, [items])
-//         const [items, setItems] = useState([]);
-//     }
-
-// function Popup({ closePopup,category}) {
-
-//     console.log(category)
-
-//     const name = useRef();
-//     const description = useRef();
-//     const [catValue, setCatValue] = useState({ name: "", description: "" });
-//     const Data = JSON.stringify(catValue)
-
-//     useEffect(() => {
-//         // localStorage.setItem(closePopup.category, Data);
-//         // creating an object
-//         const myCountryInfo = {
-//             country: 'India',
-//             capital: 'New Delhi'
-//         }
-
-//         // stringifying the myCountryInfo object and 
-//         // storing it in the localStorage
-//         localStorage.setItem('myCountryInfo', JSON.stringify(myCountryInfo))
-
-//         // retrieving localStorage data in HTML
-//     });
-//     function addCategory() {
-//         setCatValue({ name: name, description: description });
-//     }
-
-//     return (
-//         <>
-//             <div className="model-wrapper" onClick={closePopup}></div>
-//             <div className="model-container">
-
-//                 <form>
-//                     <input className='name_input' type='text' placeholder='Name' ref={name}></input>
-//                     <input className='description_input' type='text' placeholder='Description' ref={description}></input>
-//                 </form>
-
-//                 <button className='btn' onClick={() => addCategory()}>Save</button>
-//             </div>
-//         </>
-//     )
-// }
-function Popup({ closePopup, category, check }) {
-  const name = useRef();
-  const description = useRef();
-  //const [catValue, setCatValue] = useState();
-  console.log(check)
-  let existingData = JSON.parse(localStorage.getItem(category));
+function Popup({ closePopup, check, updateData, addCategory,setFormData,formData }) {
+  // console.log(formData)
+  // console.log(updateFormData)
   
-
-  function addCategory() {
-    const newData = { name: name.current.value, description: description.current.value };
-    existingData = existingData ? existingData : [];
-
-    // Check for duplicates
-    const duplicate = existingData.some(data =>
-      data.name === newData.name && data.description === newData.description
-    );
-
-    if (!duplicate) {
-      const updatedData = [...existingData, newData];
-      localStorage.setItem(category, JSON.stringify(updatedData));
+  function handleAdd() {
+    if (formData.name.trim() === "" || formData.description.trim() === "") {
+      // If either field is empty, do not add the data
+      return;
     }
+    const newCategory = {
+      name: formData.name,
+      description: formData.description,
+    };
+    addCategory(newCategory);
+    closePopup();
   }
+  
+  // const handelNameChange = (field, event) => {
+  //   // setFormData({...formData, [field]: event.target.value });
+  //   console.log(setFormData)
+  // };
+  
+  const handelNameChange = (field, event) => {
+    // console.log(field,event)
+    setFormData({ ...formData, [field]: event.target.value });
+  };
 
-  function updateData() {
-    // const newData = { name: name.current.value, description: description.current.value };
-    // existingData = existingData ? existingData : [];
-
-    // // Check for duplicates  
+  function handleUpdate() {
+    if (formData.name.trim() === "" || formData.description.trim() === "") {
+      // If either field is empty, do not add the data
+      return;
+    }
+    const updatedData = {
+      name: formData.name,
+      description: formData.description,
+    };
+    updateData(updatedData);
+    closePopup();
   }
-
+  
   return (
     <>
       <div className="model-wrapper" onClick={closePopup}></div>
       <div className="model-container">
-
         <form>
-          <input className='name_input' type='text' placeholder='Name' ref={name}></input>
-          <input className='description_input' type='text' placeholder='Description' ref={description}></input>
+          <input
+            className="name_input"
+            type="text"
+            placeholder="Name"
+            value={formData?.name}
+            onChange={handelNameChange.bind(this, "name")}
+          ></input>
+          <input
+            className="description_input"
+            type="text"
+            placeholder="Description"
+            value={formData?.description}
+            onChange={handelNameChange.bind(this, "description")}
+          ></input>
         </form>
-        {check ? <button className='btn' onClick={() => { updateData(); closePopup(); }}>Update</button> : <button className='btn' onClick={() => { addCategory(); closePopup(); }}>Add</button>}
+        {check ? (
+          <button
+          className="btn"
+          onClick={() => {
+            handleUpdate();
+            closePopup();
+          }}
+          >
+            Update
+          </button>
+        ) : (
+          <button
+          className="btn"
+          onClick={() => {
+            handleAdd();
+            closePopup();
+          }}
+          >
+            Add
+          </button>
+        )}
       </div>
     </>
   );

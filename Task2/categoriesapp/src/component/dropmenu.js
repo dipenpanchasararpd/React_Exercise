@@ -1,10 +1,12 @@
 import React from 'react'
+import './Style.css';
+
 
 function dropmenu() {
     return (
         <>
             <div></div>
-            <div className="model-container">
+            <div className="model-container-menu">
                 <label>Add</label>
                 <label>Delete</label>
                 <label>Move</label>
