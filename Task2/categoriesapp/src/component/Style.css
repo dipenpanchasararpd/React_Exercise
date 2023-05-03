@@ -243,3 +243,12 @@ i {
 .mbtn{
     margin-top: 40px;
 }
+
+.disbox{
+    height: 200px;
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 10px;border-color: #6c6c6c;
+    padding-top: 10px;
+    padding-left: 10px;
+}

@@ -3,14 +3,18 @@ import "./Style.css";
 import React, { useState, useEffect } from "react";
 
 function MoveMerge({ closeMoveMerge, isMove, category }) {
-    // console.log(isMove)
     const [childStoredData, setchildStoredData] = useState([]);
     const [storedData, setStoredData] = useState([]);
+    const [selectCat, setSelectCat] = useState();
+    // console.log(selectCat)
+    // console.log(selectCat)
+
     useEffect(() => {
         const existingData =
-            JSON.parse(localStorage.getItem(category)) || [];
+            JSON.parse(localStorage.getItem(selectCat)) || [];
         setchildStoredData(existingData);
-    }, []);
+    }, [selectCat]);
+
     useEffect(() => {
         const existingData =
             JSON.parse(localStorage.getItem("Category")) || [];
@@ -25,10 +29,9 @@ function MoveMerge({ closeMoveMerge, isMove, category }) {
                 <form>
                     <label>Currunt Category</label>
                     <div className="select">
-                        <select className="standard-select">
+                        <select className="standard-select" onChange={(event) => setSelectCat(event.target.value)}>
                             {storedData.map((item) => (
-                                // console.log(item)
-                                <option className="standard-select-options" value={item.name}>{item.name}</option>
+                                <option key={item.name} className="standard-select-options" value={item.name}>{item.name}</option>
                             ))}
                         </select>
                         <span class="focus"></span>
@@ -36,10 +39,16 @@ function MoveMerge({ closeMoveMerge, isMove, category }) {
                     <label>Parent Tag</label>
                     <div className="select">
                         <select className="standard-select">
-                            {childStoredData.map((item) => (
-                                // console.log(item)
-                                <option className="standard-select-options" value={item.name}>{item.name}</option>
-                            ))}
+
+                            {
+                                function () {
+
+                                    childStoredData.map((item) => (
+                                        // console.log(item)
+                                        <option className="standard-select-options" value={item.name}>{item.name}</option>
+                                    ))
+                                }
+                            }
                         </select>
                         <span class="focus"></span>
                     </div>
